@@ -53,15 +53,21 @@ function EditorialButton({ href, children }: { href: string; children: ReactNode
   );
 }
 
-function PlaceholderMedia({ project, compact = false }: { project: Project; compact?: boolean }) {
+function PlaceholderMedia({
+  project,
+  compact = false,
+}: {
+  project: Project;
+  compact?: boolean;
+}) {
   return (
     <div
       className={`project-media relative overflow-hidden border border-[#111111] ${
-        compact ? 'aspect-[1.55]' : 'aspect-[1.45]'
+        compact ? "aspect-[1.55]" : "aspect-[1.45]"
       }`}
     >
       <img
-        src={`/attached_assets/${project.imageNote}`}
+        src={`/${project.imageNote}`}
         alt={project.title}
         className="h-full w-full object-cover"
       />
