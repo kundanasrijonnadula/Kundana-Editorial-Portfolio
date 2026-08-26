@@ -87,7 +87,7 @@ export const projects: Project[] = [
   demoUrl: 'https://rock-paper-scissors-9d2s-olive.vercel.app',
   featured: false,
   imageLabel: 'ROCK-PAPER-SCISSORS',
-  imageNote: 'rock-paper-scissors-neon-icons.jpg',
+  imageNote: 'imageNote: 'image_178752744764.png',
 },
   {
     id: 'mini-02',
