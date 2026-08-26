@@ -179,7 +179,7 @@ function App() {
               <span className="h-px w-10 bg-[#9b3a32]" />
               Personal portfolio / 2026
             </div>
-            <h1 className="display max-w-5xl text-[clamp(2.75rem,9vw,8.75rem)] leading-[0.9] text-[#111111]">
+            <h1 className="display max-w-5xl text-[clamp(2.5rem,8vw,7.75rem)] leading-[0.9] text-[#111111]">
               <span className="block">J. KUNDANA</span>
               <span className="block text-[#111111]">SHANMUKHA</span>
               <span className="block">LAKSHMI</span>
@@ -216,7 +216,7 @@ function App() {
         <section id="about" className="scroll-mt-24 border-b border-[#111111] py-24 md:py-32">
           <SectionLabel number="01">About</SectionLabel>
           <div className="mt-12 grid gap-14 md:grid-cols-[0.82fr_1.5fr] md:gap-20 lg:grid-cols-[0.72fr_1.65fr] lg:gap-28">
-            <h2 className="display max-w-sm text-5xl leading-[0.95] sm:text-6xl lg:text-7xl">Who Am I, Really?</h2>
+            <h2 className="display max-w-sm text-5xl leading-[0.95] text-[#9b3a32] sm:text-6xl lg:text-7xl">Who Am I, Really?</h2>
             <div>
               <div className="grid gap-6 text-[1.02rem] leading-8 text-[#5e5e5e] md:grid-cols-2 md:gap-x-12">
                 <div className="space-y-6">
