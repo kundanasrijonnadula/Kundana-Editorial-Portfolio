@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "J. Kundana Shanmukha Lakshmi — Portfolio"
+description = "A personal portfolio for J. Kundana Shanmukha Lakshmi, presenting her interests, skills, editable project placeholders, and contact links through a polished editorial experience."
+version = "1.0.0"
+id = "artifacts/kundana-portfolio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18145
+
+[services.development]
+run = "pnpm --filter @workspace/kundana-portfolio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/kundana-portfolio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/kundana-portfolio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18145"
+BASE_PATH = "/"

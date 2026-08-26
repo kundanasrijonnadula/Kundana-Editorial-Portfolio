@@ -1,0 +1,716 @@
+# Build My Complete Personal Portfolio Website
+
+Create a complete personal portfolio website for:
+
+# J. Kundana Shanmukha Lakshmi
+
+Use the following website as a reference for the number of sections, components, content areas, project structure, navigation, buttons, and overall completeness:
+
+https://portfolio-website-cyan-seven-54.vercel.app/
+
+The reference website should inspire the website structure and components, while my website should have its own completely original visual design.
+
+---
+
+# WEBSITE THEME
+
+The visual theme should be:
+
+# Modern Portfolio × Editorial × Newspaper-Inspired Design
+
+The website should feel like a modern, premium personal portfolio that takes inspiration from:
+
+* Editorial magazines
+* Newspaper typography
+* Print layouts
+* Multi-column compositions
+* Minimal design
+* Strong typography
+
+The newspaper influence should appear through:
+
+* Serif headings
+* Editorial grids
+* Thin horizontal lines
+* Thin vertical borders
+* Multi-column layouts
+* Small section labels
+* Strong typography hierarchy
+* Generous whitespace
+* Structured content
+* Warm paper-like background
+
+The website should feel:
+
+* Modern
+* Professional
+* Creative
+* Personal
+* Elegant
+* Minimal
+* Unique
+
+---
+
+# COLOR PALETTE
+
+Use:
+
+Background:
+Warm off-white / paper color
+
+#F4F1EA
+
+Alternative background:
+
+#ECE8DF
+
+Primary text:
+
+#111111
+
+Secondary text:
+
+#5E5E5E
+
+Muted text:
+
+#888888
+
+Borders:
+
+#1A1A1A
+
+Optional subtle accent:
+
+#9B3A32
+
+Keep the colors minimal.
+
+Use typography, borders, spacing, and layout as the primary visual elements.
+
+---
+
+# TYPOGRAPHY
+
+Use a strong editorial typography system.
+
+## Main headings
+
+Use:
+
+DM Serif Display
+
+or
+
+Playfair Display
+
+## Body text
+
+Use:
+
+Inter
+
+or
+
+Manrope
+
+## Small labels and metadata
+
+Use:
+
+IBM Plex Mono
+
+Typography should be one of the strongest visual features of the website.
+
+---
+
+# 1. NAVIGATION
+
+Create a clean sticky navigation bar.
+
+Display my name on the left:
+
+J. Kundana Shanmukha Lakshmi
+
+Navigation links on the right:
+
+About
+
+Projects
+
+Contact
+
+Use:
+
+* Thin bottom border
+* Smooth scrolling
+* Active section indicator
+* Elegant underline hover animation
+
+Make the navigation responsive for mobile.
+
+---
+
+# 2. HERO SECTION
+
+Create a strong first impression.
+
+Display:
+
+# J. KUNDANA
+
+# SHANMUKHA LAKSHMI
+
+Below the name:
+
+Student & Aspiring Developer
+
+Add this short introduction:
+
+A curious student exploring technology, creativity, and problem-solving through code, design, and hands-on projects.
+
+Include two buttons:
+
+View Projects
+
+Get in Touch
+
+Use a large editorial layout.
+
+The name should be visually dominant.
+
+Use generous whitespace and strong typography.
+
+Create a subtle side area with small personal information such as:
+
+Student
+
+Curious Learner
+
+Always Exploring
+
+Present these as elegant text labels rather than colorful badges.
+
+---
+
+# 3. ABOUT SECTION
+
+Create the section with the heading:
+
+# Who Am I, Really?
+
+Use this exact content:
+
+Hi, I’m J. Kundana Shanmukha Lakshmi, a curious and enthusiastic student with a strong interest in technology, creativity, and problem-solving. I enjoy exploring new ideas and turning them into meaningful digital experiences through code and design.
+
+I’m particularly interested in learning new technologies, building projects, and understanding how things work behind the scenes. I believe the best way to learn is by creating, experimenting, and occasionally spending a little too long figuring out why the code worked yesterday but not today!
+
+I’m continuously learning, improving my skills, and exploring new possibilities—one project, one idea, and one bug at a time.
+
+Below or beside the About section, add small personal identity highlights:
+
+Student
+
+Curious Learner
+
+Still Learning
+
+Creative Problem Solver
+
+Use a clean editorial layout with borders and spacing.
+
+Add a button or text link:
+
+Know More About Me →
+
+This link can smoothly scroll to additional personal information or remain ready for future expansion.
+
+---
+
+# 4. SKILLS SECTION
+
+Create the heading:
+
+# What I Know So Far
+
+Use a clean editorial grid.
+
+Create these categories:
+
+## PROGRAMMING
+
+Python
+
+Java
+
+---
+
+## WEB DEVELOPMENT
+
+HTML
+
+CSS
+
+---
+
+## TOOLS
+
+Figma
+
+Vercel
+
+Android Studio
+
+VS Code
+
+Display these as elegant text lists.
+
+Use:
+
+* Columns
+* Dividers
+* Editorial spacing
+* Serif category headings
+* Clean typography
+
+On mobile, stack the categories vertically.
+
+---
+
+# 5. PROJECTS SECTION
+
+Create the main heading:
+
+# Projects
+
+Divide the projects section into:
+
+# Main Projects
+
+and
+
+# Mini Projects
+
+Create reusable project cards.
+
+Each project card should contain:
+
+Project image
+
+Project title
+
+Short project description
+
+Project category
+
+Project status
+
+Technology information
+
+View Code button
+
+Live Demo button
+
+Use a small status label such as:
+
+Live
+
+when applicable.
+
+For now, use clearly editable project placeholders because I will add my actual projects later.
+
+Example:
+
+PROJECT TITLE
+
+[Add Project Name]
+
+PROJECT DESCRIPTION
+
+[Add Project Description]
+
+PROJECT IMAGE
+
+[Add Project Image]
+
+TECHNOLOGIES
+
+[Add Technologies]
+
+SOURCE CODE
+
+[Add GitHub Link]
+
+LIVE DEMO
+
+[Add Live Demo Link]
+
+Make the project system easy to update later.
+
+Do not invent project names or descriptions.
+
+---
+
+# 6. MAIN PROJECTS
+
+Create a visually prominent layout for Main Projects.
+
+Use larger project cards.
+
+Each card should include:
+
+Large project image
+
+Project status
+
+Project title
+
+Short description
+
+View Code →
+
+Live Demo →
+
+Use an editorial two-column or asymmetric layout.
+
+Images should have:
+
+* Thin borders
+* Subtle hover zoom
+* Minimal transitions
+
+Project information should use strong typography.
+
+---
+
+# 7. MINI PROJECTS
+
+Create a separate section:
+
+# Mini Projects
+
+Use smaller project cards in an editorial grid.
+
+Each mini project should contain:
+
+Status
+
+Project title
+
+Small project image
+
+Short description
+
+View Code →
+
+Live Demo →
+
+Create placeholders for future projects.
+
+Make the cards visually connected to the same editorial design system.
+
+---
+
+# 8. VIEW MORE PROJECTS
+
+At the bottom of the projects section, add:
+
+# View More Projects →
+
+This should be a prominent elegant text link.
+
+Connect it to:
+
+[ADD PROJECTS PAGE OR GITHUB LINK]
+
+The arrow should move slightly when hovered.
+
+---
+
+# 9. CONTACT SECTION
+
+Create the heading:
+
+# Get in Touch
+
+Use this text:
+
+I'm always open to learning, collaborating, and discussing new ideas and interesting projects.
+
+Create separate contact information blocks.
+
+## EMAIL
+
+[Add Email]
+
+Button:
+
+Send a Message →
+
+---
+
+## MOBILE
+
+[Add Phone Number]
+
+Button:
+
+Call Now →
+
+---
+
+## LOCATION
+
+[Add Location]
+
+Use two lines for location.
+
+Example structure:
+
+[University / College]
+
+[City, State, Country]
+
+Keep everything editable.
+
+---
+
+# 10. SOCIAL CONNECTION SECTION
+
+Create:
+
+# Let's Connect
+
+Add:
+
+LinkedIn
+
+[Add LinkedIn URL]
+
+GitHub
+
+[Add GitHub URL]
+
+Use elegant text links with small arrow icons.
+
+Below this, add:
+
+Prefer a direct email?
+
+Button:
+
+Send an Email →
+
+Below the button, add an optional response information line:
+
+⏱ [Add Typical Response Time]
+
+Keep this editable.
+
+---
+
+# 11. FOOTER
+
+Create a clean editorial footer.
+
+Display:
+
+© 2026 J. Kundana Shanmukha Lakshmi. All rights reserved.
+
+Below or beside this, include navigation links:
+
+About
+
+Projects
+
+Contact
+
+Add a thin border above the footer.
+
+Use generous spacing.
+
+---
+
+# EDITORIAL SECTION SYSTEM
+
+Use a consistent section structure.
+
+Each major section should have a small label:
+
+01 / ABOUT
+
+02 / SKILLS
+
+03 / PROJECTS
+
+04 / CONTACT
+
+Use:
+
+* Uppercase
+* Small font
+* Monospace typography
+* Wide letter spacing
+* Muted color
+
+Below each label, use a large serif heading.
+
+Use thin divider lines between sections.
+
+---
+
+# PROJECT CARD INTERACTIONS
+
+Add subtle interactions.
+
+When hovering over a project:
+
+* Image scales slightly
+* Project title becomes subtly emphasized
+* Links animate
+* Arrow moves slightly
+
+Keep all interactions smooth and minimal.
+
+---
+
+# BUTTON DESIGN
+
+Buttons should feel editorial and elegant.
+
+Use:
+
+* Minimal rectangular shapes
+* Thin borders
+* Small padding
+* Minimal border radius
+* Serif or clean sans-serif typography
+
+Hover:
+
+* Background transition
+* Arrow movement
+* Subtle underline
+
+Avoid oversized rounded buttons.
+
+---
+
+# ANIMATIONS
+
+Add subtle animations throughout the website.
+
+Include:
+
+Smooth scrolling.
+
+Hero text fade-in.
+
+Section fade-up animations.
+
+Project image hover animation.
+
+Navigation underline animation.
+
+Button arrow movement.
+
+Keep animations elegant and minimal.
+
+---
+
+# RESPONSIVE DESIGN
+
+Create a polished responsive experience.
+
+## Desktop
+
+Use:
+
+* Multi-column editorial layouts
+* Large typography
+* Wide spacing
+* Asymmetric compositions
+
+## Tablet
+
+Use:
+
+* Adaptive grids
+* Two-column layouts where appropriate
+
+## Mobile
+
+Use:
+
+* Single-column layouts
+* Responsive typography
+* Easy navigation
+* Comfortable spacing
+* Full-width project images
+
+Maintain the editorial visual identity on every screen size.
+
+---
+
+# FINAL WEBSITE STRUCTURE
+
+The completed website should include:
+
+1. Sticky Navigation
+2. Hero Section
+3. View Projects Button
+4. Get in Touch Button
+5. About / Who Am I Section
+6. Personal Identity Highlights
+7. Know More About Me Link
+8. Skills Section
+9. Programming Skills
+10. Web Development Skills
+11. Tools
+12. Projects Section
+13. Main Projects
+14. Main Project Cards
+15. Mini Projects
+16. Mini Project Cards
+17. Project Images
+18. Project Status Labels
+19. View Code Buttons
+20. Live Demo Buttons
+21. View More Projects Link
+22. Get in Touch Section
+23. Email Contact
+24. Mobile Contact
+25. Location
+26. Send Message Button
+27. Let's Connect Section
+28. LinkedIn Link
+29. GitHub Link
+30. Direct Email CTA
+31. Response Time Information
+32. Footer Navigation
+33. Copyright
+
+---
+
+# FINAL CREATIVE DIRECTION
+
+Build a complete, visually impressive, professional personal portfolio website for:
+
+# J. Kundana Shanmukha Lakshmi
+
+Use all the major elements and content areas of the reference portfolio website, but create an original visual experience.
+
+The strongest design identity should come from:
+
+* Editorial typography
+* Newspaper-inspired layout principles
+* Structured grids
+* Borders
+* Whitespace
+* Elegant serif headings
+* Minimal modern design
+
+The website should feel personal, thoughtful, and polished.
+
+It should clearly represent J. Kundana Shanmukha Lakshmi and provide an easy structure for adding real projects, contact details, education, and links later.
