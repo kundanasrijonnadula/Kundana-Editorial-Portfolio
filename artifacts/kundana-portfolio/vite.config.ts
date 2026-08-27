@@ -16,11 +16,12 @@ export default defineConfig({
     runtimeErrorOverlay(),
   ],
 
-  resolve: {
-    alias: {
-      "@": path.resolve(import.meta.dirname, "src"),
-    },
+resolve: {
+  alias: {
+    "@": path.resolve(import.meta.dirname, "src"),
+    "@assets": path.resolve(import.meta.dirname, "../../attached_assets"),
   },
+},
 
   root: path.resolve(import.meta.dirname),
 
