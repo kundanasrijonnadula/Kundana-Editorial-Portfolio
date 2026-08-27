@@ -1,3 +1,5 @@
+import rockPaperScissorsImage from '@assets/image_1787841294711.png';
+
 export type Project = {
   id: string;
   number: string;
@@ -11,6 +13,7 @@ export type Project = {
   featured: boolean;
   imageLabel: string;
   imageNote: string;
+  imageSrc?: string;
 };
 
 // Replace the bracketed values below when real project and contact details are ready.
@@ -78,7 +81,8 @@ export const projects: Project[] = [
     id: 'mini-01',
     number: '03',
     title: 'ROCK-PAPER-SCISSORS',
-    description: '[Add Project Description]',
+    description:
+      'Rock Paper Scissors is an interactive web game where the player competes against the computer. It features score tracking, multiple match modes, and a simple, engaging interface.',
     category: '[Add Project Category]',
     status: 'Live',
     technologies: ['[Add Technology]'],
@@ -87,6 +91,7 @@ export const projects: Project[] = [
     featured: false,
     imageLabel: 'PROJECT IMAGE',
     imageNote: '[Add Project Image]',
+    imageSrc: rockPaperScissorsImage,
   },
   {
     id: 'mini-02',

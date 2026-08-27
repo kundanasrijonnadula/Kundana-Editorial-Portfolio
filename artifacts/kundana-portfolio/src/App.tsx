@@ -56,13 +56,29 @@ function EditorialButton({ href, children }: { href: string; children: ReactNode
 function PlaceholderMedia({ project, compact = false }: { project: Project; compact?: boolean }) {
   return (
     <div className={`project-media border border-[#111111] ${compact ? 'aspect-[1.55]' : 'aspect-[1.45]'}`}>
-      <div className="project-media-inner absolute inset-0 flex flex-col items-center justify-center px-5 text-center">
-        <span className="mono-label text-[#9b3a32]">{project.imageLabel}</span>
-        <span className="mt-3 max-w-[14rem] font-serif text-xl leading-tight text-[#111111]/70">{project.imageNote}</span>
-        <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between border-t border-[#111111]/30 pt-2">
-          <span className="mono-label text-[0.58rem] text-[#77716a]">VISUAL PENDING</span>
-          <span className="mono-label text-[0.58rem] text-[#77716a]">{project.number} / 05</span>
-        </div>
+      <div className="project-media-inner absolute inset-0">
+        {project.imageSrc ? (
+          <>
+            <img
+              src={project.imageSrc}
+              alt={`${project.title} project preview`}
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between bg-[#f4f1ea]/90 px-2 py-2">
+              <span className="mono-label text-[0.58rem] text-[#9b3a32]">PROJECT IMAGE</span>
+              <span className="mono-label text-[0.58rem] text-[#77716a]">{project.number} / 05</span>
+            </div>
+          </>
+        ) : (
+          <div className="flex h-full flex-col items-center justify-center px-5 text-center">
+            <span className="mono-label text-[#9b3a32]">{project.imageLabel}</span>
+            <span className="mt-3 max-w-[14rem] font-serif text-xl leading-tight text-[#111111]/70">{project.imageNote}</span>
+            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between border-t border-[#111111]/30 pt-2">
+              <span className="mono-label text-[0.58rem] text-[#77716a]">VISUAL PENDING</span>
+              <span className="mono-label text-[0.58rem] text-[#77716a]">{project.number} / 05</span>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
