@@ -53,8 +53,15 @@ function EditorialButton({ href, children }: { href: string; children: ReactNode
   );
 }
 
-function PlaceholderMedia({ project, compact = false }: { project: Project; compact?: boolean }) {
+function PlaceholderMedia({
+  project,
+  compact = false,
+}: {
+  project: Project;
+  compact?: boolean;
+}) {
   return (
+
     <div className={`project-media border border-[#111111] ${compact ? 'aspect-[1.55]' : 'aspect-[1.45]'}`}>
       <div className="project-media-inner absolute inset-0">
         <img
@@ -63,6 +70,7 @@ function PlaceholderMedia({ project, compact = false }: { project: Project; comp
           className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
+
     </div>
   );
 }

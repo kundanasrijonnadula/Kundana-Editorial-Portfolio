@@ -67,6 +67,7 @@ export const projects: Project[] = [
     imageNote: '[Add Project Image]',
   },
   {
+
     id: 'mini-01',
     number: '02',
     title: 'ROCK-PAPER-SCISSORS',
@@ -81,6 +82,8 @@ export const projects: Project[] = [
     imageLabel: 'PROJECT IMAGE',
     imageNote: '[Add Project Image]',
     imageSrc: rockPaperScissorsImage,
+
+
   },
   {
     id: 'mini-03',
