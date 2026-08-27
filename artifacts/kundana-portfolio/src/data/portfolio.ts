@@ -1,4 +1,5 @@
 import rockPaperScissorsImage from '@assets/image_1787841542905.png';
+import placeholderProjectImage from '@assets/image_1787842151971.png';
 
 export type Project = {
   id: string;
@@ -15,6 +16,8 @@ export type Project = {
   imageNote: string;
   imageSrc?: string;
 };
+
+export { placeholderProjectImage };
 
 // Replace the bracketed values below when real project and contact details are ready.
 export const portfolio = {

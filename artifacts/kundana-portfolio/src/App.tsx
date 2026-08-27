@@ -1,6 +1,6 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { ArrowDown, ArrowRight, ArrowUpRight, Menu, X } from 'lucide-react';
-import { portfolio, projects, type Project } from '@/data/portfolio';
+import { placeholderProjectImage, portfolio, projects, type Project } from '@/data/portfolio';
 
 function SectionLabel({ number, children }: { number: string; children: ReactNode }) {
   return (
@@ -57,22 +57,11 @@ function PlaceholderMedia({ project, compact = false }: { project: Project; comp
   return (
     <div className={`project-media border border-[#111111] ${compact ? 'aspect-[1.55]' : 'aspect-[1.45]'}`}>
       <div className="project-media-inner absolute inset-0">
-        {project.imageSrc ? (
-          <img
-            src={project.imageSrc}
-            alt={`${project.title} project preview`}
-            className="absolute inset-0 h-full w-full object-cover"
-          />
-        ) : (
-          <div className="flex h-full flex-col items-center justify-center px-5 text-center">
-            <span className="mono-label text-[#9b3a32]">{project.imageLabel}</span>
-            <span className="mt-3 max-w-[14rem] font-serif text-xl leading-tight text-[#111111]/70">{project.imageNote}</span>
-            <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between border-t border-[#111111]/30 pt-2">
-              <span className="mono-label text-[0.58rem] text-[#77716a]">VISUAL PENDING</span>
-              <span className="mono-label text-[0.58rem] text-[#77716a]">{project.number} / 05</span>
-            </div>
-          </div>
-        )}
+        <img
+          src={project.imageSrc ?? placeholderProjectImage}
+          alt={project.imageSrc ? `${project.title} project preview` : 'Editorial coding pattern placeholder'}
+          className="absolute inset-0 h-full w-full object-cover"
+        />
       </div>
     </div>
   );
