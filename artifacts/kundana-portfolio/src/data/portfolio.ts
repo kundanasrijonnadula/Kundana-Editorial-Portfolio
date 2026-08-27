@@ -1,4 +1,4 @@
-import rockPaperScissorsImage from '@assets/image_1787841294711.png';
+import rockPaperScissorsImage from '@assets/image_1787841542905.png';
 
 export type Project = {
   id: string;
